@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Menu</title>
+      <link href="estilo.css" rel="stylesheet">
+</head>
+
+<body class="body-menu">
+      <header>
+            <button id="bmenu"><i class="bi bi-list"></i></button>
+            <div id="list" class="collapse">
+                  <a href="#pinchos">
+                        <p>PINCHOS</p>
+                  </a>
+                  <a href="#batidos">
+                        <p>BATIDOS</p>
+                  </a>
+                  <a href="#helados">
+                        <p>HELADOS</p>
+                  </a>
+                  <a href="#bebidas">
+                        <p>BEBIDAS</p>
+                  </a>
+                  <a href="index.html">
+                        <p>Inicio</p></a>
+            </div>
+      </header>
+      <script>
+            const bmenu = document.querySelector("#bmenu");
+            const list = document.querySelector("#list");
+
+            bmenu.addEventListener('click', (e) => {
+                  list.classList.toggle("collapse");
+            })
+      </script>
+      <main>
+            <section class="pinchos" id="pinchos">
+                  <div class="content-title">
+                        <div class="letter">P</div>
+                        <div class="letter">I</div>
+                        <div class="letter">N</div>
+                        <div class="letter">C</div>
+                        <div class="letter">H</div>
+                        <div class="letter">O</div>
+                        <div class="letter">S</div>
+                  </div>
+                  <div class="content">
+                        <div class="gradient-border">
+                              <div class="cart">
+                                    <h1 class="title">Empanadas de Carne</h1>
+                                    <img src="img/fotosmenu/empanada de carne.png" alt="">
+                                    <h3 class="subtitle">Ingredientes</h3>
+                                    <p class="ingredientes">cebolla, ajo, pimiento verde y rojo,
+                                          tomate, carne de ternera y patatas.</p>
+                                    <h5 class="price">1,70€/u</h5>
+                              </div>
+                        </div>
+                        <div class="gradient-border">
+                              <div class="cart">
+                                    <h1 class="title">Empanada de Pollo</h1>
+                                    <img src="img/fotosmenu/empanada de pollo.png" alt="">
+                                    <h3 class="subtitle">Ingredientes</h3>
+                                    <p class="ingredientes">cebolla, ajo, pimiento verde y rojo,
+                                          tomate, pollo y patatas.</p>
+                                    <h5 class="price">1,70€/u</h5>
+                              </div>
+                        </div>
+                        <div class="gradient-border">
+                              <div class="cart">
+                                    <h1 class="title">Empanada de Piña y Queso</h1>
+                                    <img src="img/fotosmenu/empanada de piña.png" alt="">
+                                    <h3 class="subtitle">Ingredientes</h3>
+                                    <p class="ingredientes">Masa de maíz, <span class="a-leche">queso</span> y piña
+                                          cocinada.</p>
+                                    <h5 class="price">1,70€/u</h5>
+                              </div>
+                        </div>
+                        <div class="gradient-border">
+                              <div class="cart templade">
+                                    <h1 class="title">Empanada de Queso</h1>
+                                    <img src="img/fotosmenu/empana de queso.png" alt="">
+                                    <h3 class="subtitle">Ingredientes</h3>
+                                    <p class="ingredientes">Masa de maíz y <span class="a-leche">queso</span>. </p>
+                                    <h5 class="price">1,70€/u</h5>
+                              </div>
+                        </div>
+                        <div class="gradient-border">
+                              <div class="cart">
+                                    <h1 class="title">Aborrajado de Queso con Dulce de Guayaba</h1>
+                                    <img src="img/fotosmenu/aborrajada dulce.png" alt="">
+                                    <h3 class="subtitle">Ingredientes</h3>
+                                    <p class="ingredientes">Rebosado de <span class="a-gluten">harina de trigo</span>,
+                                          sal, plátano
+                                          maduro, <span class="a-leche">queso</span> y dulce de guayaba.</p>
+                                    <h5 class="price">3,50€/u</h5>
+                              </div>
+                        </div>
+                        <div class="gradient-border">
+                              <div class="cart templade">
+                                    <h1 class="title">Aborrajado de Queso</h1>
+                                    <img src="img/fotosmenu/aborrajado.png" alt="">
+                                    <h3 class="subtitle">Ingredientes</h3>
+                                    <p class="ingredientes">Rebosado de <span class="a-gluten">harina de trigo</span>,
+                                          sal, plátano
+                                          maduro y <span class="a-leche">queso</span>.
+                                    </p>
+                                    <h5 class="price">3,50€/u</h5>
+                              </div>
+                        </div>
+                        <div class="gradient-border">
+                              <div class="cart templade">
+                                    <h1 class="title">Pollo con Yuca</h1>
+                                    <img src="img/fotosmenu/pollo con yuca.png" alt="">
+                                    <h3 class="subtitle">Ingredientes</h3>
+                                    <p class="ingredientes">Pollo rebosado de <span class="a-gluten">harina de
+                                                trigo</span> con sal,
+                                          especias y <span class="a-huevo">huevo</span>, yuca frita con especias.</p>
+                                    <h5 class="price">5,50€</h5>
+                              </div>
+                        </div>
+                        <div class="gradient-border">
+                              <div class="cart templade">
+                                    <h1 class="title">Yuca</h1>
+                                    <img src="img/fotosmenu/racion de yuca.png" alt="">
+                                    <h3 class="subtitle">Ingredientes</h3>
+                                    <p class="ingredientes">Yuca frita con especias</p>
+                                    <h5 class="price">3,50€/u</h5>
+                              </div>
+                        </div>
+                        <div class="gradient-border">
+                              <div class="cart">
+                                    <h1 class="title">Salchipapa</h1>
+                                    <img class="height-img-templade" src="img/fotosmenu/salchipapa.png" alt="">
+                                    <h3 class="subtitle">Ingredientes</h3>
+                                    <p class="ingredientes">Papas y salchichas fritas con kétchup, mayonesa,
+                                          <span class="a-mostaza">mostaza</span> y miel, salsa de piña, salsa rosa y
+                                          <span class="a-leche">queso</span> fresco.
+                                    </p>
+                                    <h5 class="price">5,50€/u</h5>
+                              </div>
+                        </div>
+                        <div class="gradient-border">
+                              <div class="cart">
+                                    <h1 class="title">Perrito Caliente</h1>
+                                    <img class="height-img-templade" src="img/fotosmenu/perrito caliente.png" alt="">
+                                    <h3 class="subtitle">Ingredientes</h3>
+                                    <p class="ingredientes">Perrito estilo Colombiano con salsa de tomate, mayonesa,
+                                          <span class="a-mostaza">mostaza</span> y miel,
+                                          bacon, papas chip, <span class="a-leche">queso</span> y salsa de piña.</p>
+                                    <h5 class="price">4€/u</h5>
+                              </div>
+                        </div>
+                        <div class="gradient-border">
+                              <div class="cart">
+                                    <h1 class="title">Papa Rellena de Carne</h1>
+                                    <img src="img/fotosmenu/papa rellena.png" alt="">
+                                    <h3 class="subtitle">Ingredientes</h3>
+                                    <p class="ingredientes">Rebosado de <span class="a-gluten">harina de trigo</span>
+                                          con especias, cebolla, ajo, pimiento verde y rojo,
+                                          tomate, carne de ternera, patatas, arroz y <span class="a-huevo">huevo</span>
+                                          cocido.</p>
+                                    <h5 class="price">2,50€/u</h5>
+                              </div>
+                        </div>
+                        <div class="gradient-border">
+                              <div class="cart templade">
+                                    <h1 class="title">Pastel de Pollo</h1>
+                                    <img src="img/fotosmenu/pastel de pollo.png" alt="">
+                                    <h3 class="subtitle">Ingredientes</h3>
+                                    <p class="ingredientes">Harina de maíz con especias, cebolla, ajo, pimiento verde y
+                                          rojo,
+                                          tomate, pollo y patatas.</p>
+                                    <h5 class="price">2,50€/u</h5>
+                              </div>
+                        </div>
+                        <div class="gradient-border">
+                              <div class="cart">
+                                    <h1 class="title">Arepa Rellena</h1>
+                                    <img src="img/fotosmenu/arrepa.png" alt="">
+                                    <h3 class="subtitle">Ingredientes</h3>
+                                    <p class="ingredientes">Harina de maíz, sal, mantequilla, <span class="a-leche">queso</span> y <span class="a-leche">leche</span>.</p>
+                                    <h5 class="price">3,50€/u</h5>
+                              </div>
+                        </div>
+                        <div class="gradient-border">
+                              <div class="cart">
+                                    <h1 class="title">Pan de Bono</h1>
+                                    <img src="img/fotosmenu/pan de bono.png" alt="">
+                                    <h3 class="subtitle">Ingredientes</h3>
+                                    <p class="ingredientes">Harina de pan de bono, <span class="a-leche">leche</span>,
+                                          <span class="a-huevo">huevo</span> y mantequilla.</p>
+                                    <h5 class="price">1,50€/u</h5>
+                              </div>
+                        </div>
+                        <div class="gradient-border">
+                              <div class="cart templade">
+                                    <h1 class="title">Buñuelos</h1>
+                                    <img src="img/fotosmenu/buñuelos.png" alt="">
+                                    <h3 class="subtitle">Ingredientes</h3>
+                                    <p class="ingredientes">Harina de buñuelo, <span class="a-leche">leche</span> y
+                                          azúcar</p>
+                                    <h5 class="price">1,50€/u</h5>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+
+            <section class="helados" id="helados">
+                  <div class="content-title">
+                        <div class="letter">H</div>
+                        <div class="letter">E</div>
+                        <div class="letter">L</div>
+                        <div class="letter">A</div>
+                        <div class="letter">D</div>
+                        <div class="letter">O</div>
+                        <div class="letter">S</div>
+                  </div>
+                  <div class="content">
+                        <div class="gradient-border">
+                              <div class="cart templade">
+                                    <h1 class="title">Almendra</h1>
+                                    <img src="img/helados/almendra.png" alt="">
+                                    <h3 class="subtitle">Ingredientes</h3>
+                                    <p class="ingredientes"><span class="a-leche">Leche</span>, azúcar y <span class="a-f-s">almendra</span> laminada.</p>
+                                    <h5 class="price">1,50€</h5>
+                              </div>
+                        </div>
+                        <div class="gradient-border">
+                              <div class="cart">
+                                    <h1 class="title">Choco Maní</h1>
+                                    <img src="img/helados/choco mani.png" alt="">
+                                    <h3 class="subtitle">Ingredientes</h3>
+                                    <p class="ingredientes"><span class="a-cacahuete">Chocolate</span> con <span class="a-leche">leche</span>, <span class="a-leche">leche</span>
+                                          condensada, <span class="a-f-s">maní</span> y azúcar.</p>
+                                    <h5 class="price">1,50€</h5>
+                              </div>
+                        </div>
+                        <div class="gradient-border">
+                              <div class="cart templade">
+                                    <h1 class="title">Coco</h1>
+                                    <img src="img/helados/coco.png" alt="">
+                                    <h3 class="subtitle">Ingredientes</h3>
+                                    <p class="ingredientes"><span class="a-leche">Leche</span>, <span class="a-leche">nata</span>, azúcar y coco rallado.</p>
+                                    <h5 class="price">1,50€</h5>
+                              </div>
+                        </div>
+                        <div class="gradient-border">
+                              <div class="cart templade">
+                                    <h1 class="title">Dulce de Leche</h1>
+                                    <img src="img/helados/dulce de leche.png" alt="">
+                                    <h3 class="subtitle">Ingredientes</h3>
+                                    <p class="ingredientes"><span class="a-leche">Leche</span>, <span class="a-leche">leche</span> condensada, pasas y aroma.</p>
+                                    <h5 class="price">1,50€</h5>
+                              </div>
+                        </div>
+                        <div class="gradient-border">
+                              <div class="cart templade">
+                                    <h1 class="title">Fresa</h1>
+                                    <img src="img/helados/fresa.png" alt="">
+                                    <h3 class="subtitle">Ingredientes</h3>
+                                    <p class="ingredientes"><span class="a-leche">Leche</span>, <span class="a-leche">nata</span>, azúcar y fresas.</p>
+                                    <h5 class="price">1,50€</h5>
+                              </div>
+                        </div>
+                        <div class="gradient-border">
+                              <div class="cart">
+                                    <h1 class="title">Fresa tres Leches</h1>
+                                    <img src="img/helados/fresa tres leches.png" alt="">
+                                    <h3 class="subtitle">Ingredientes</h3>
+                                    <p class="ingredientes"><span class="a-leche">Leche</span>, <span class="a-leche">leche</span> condensada, <span class="a-leche">leche</span> en polvo, azúcar, fresas,
+                                          esencia de fresa y <span class="a-leche">nata</span>.
+                                    </p>
+                                    <h5 class="price">1,50€</h5>
+                              </div>
+                        </div>
+                        <div class="gradient-border">
+                              <div class="cart templade">
+                                    <h1 class="title">Guanábana</h1>
+                                    <img src="img/helados/guanabana.png" alt="">
+                                    <h3 class="subtitle">Ingredientes</h3>
+                                    <p class="ingredientes"><span class="a-leche">Leche</span>, azúcar y pulpa de
+                                          guanábana.</p>
+                                    <h5 class="price">1,50€</h5>
+                              </div>
+                        </div>
+                        <div class="gradient-border">
+                              <div class="cart templade">
+                                    <h1 class="title">Guayaba</h1>
+                                    <img src="img/helados/guayaba.png" alt="">
+                                    <h3 class="subtitle">Ingredientes</h3>
+                                    <p class="ingredientes"><span class="a-leche">Leche</span>, azúcar y guayaba dulce.
+                                    </p>
+                                    <h5 class="price">1,50€</h5>
+                              </div>
+                        </div>
+                        <div class="gradient-border">
+                              <div class="cart">
+                                    <h1 class="title">Mango</h1>
+                                    <img src="img/helados/mango.png" alt="">
+                                    <h3 class="subtitle">Ingredientes</h3>
+                                    <p class="ingredientes"><span class="a-leche">Leche</span>, azúcar y pulpa de mango.
+                                    </p>
+                                    <h5 class="price">1,50€</h5>
+                              </div>
+                        </div>
+                        <div class="gradient-border">
+                              <div class="cart">
+                                    <h1 class="title">Maní</h1>
+                                    <img src="img/helados/mani.png" alt="">
+                                    <h3 class="subtitle">Ingredientes</h3>
+                                    <p class="ingredientes"><span class="a-leche">Leche</span>, <span class="a-leche">nata</span>, azúcar y <span class="a-f-s">maní</span>
+                                          triturado.</p>
+                                    <h5 class="price">1,50€</h5>
+                              </div>
+                        </div>
+                        <div class="gradient-border">
+                              <div class="cart">
+                                    <h1 class="title">Maracuyá</h1>
+                                    <img src="img/helados/maracuya.png" alt="">
+                                    <h3 class="subtitle">Ingredientes</h3>
+                                    <p class="ingredientes"><span class="a-leche">Leche</span>, azúcar y pulpa de
+                                          maracuyá.</p>
+                                    <h5 class="price">1,50€</h5>
+                              </div>
+                        </div>
+                        <div class="gradient-border">
+                              <div class="cart">
+                                    <h1 class="title">Mora</h1>
+                                    <img class="height-img-templade" src="img/helados/mora.png" alt="">
+                                    <h3 class="subtitle">Ingredientes</h3>
+                                    <p class="ingredientes"><span class="a-leche">Leche</span>, azúcar, <span class="a-leche">nata</span> y moras.</p>
+                                    <h5 class="price">1,50€</h5>
+                              </div>
+                        </div>
+                        <div class="gradient-border">
+                              <div class="cart templade">
+                                    <h1 class="title">Oreo</h1>
+                                    <img src="img/helados/oreo.png" alt="">
+                                    <h3 class="subtitle">Ingredientes</h3>
+                                    <p class="ingredientes"><span class="a-leche">Leche</span>, <span class="a-leche">nata</span>, azúcar y galleta oreo.</p>
+                                    <h5 class="price">1,50€</h5>
+                              </div>
+                        </div>
+                        <div class="gradient-border">
+                              <div class="cart templade">
+                                    <h1 class="title">Queso</h1>
+                                    <img src="img/helados/queso.png" alt="">
+                                    <h3 class="subtitle">Ingredientes</h3>
+                                    <p class="ingredientes"><span class="a-leche">Leche</span>, <span class="a-leche">nata</span>, azúcar, dulce de guayaba y <span class="a-leche">queso</span> fresco
+                                          rallado.</p>
+                                    <h5 class="price">1,50€</h5>
+                              </div>
+                        </div>
+                        <div class="gradient-border">
+                              <div class="cart templade">
+                                    <h1 class="title">Ron con Pasas</h1>
+                                    <img src="img/helados/ron con pasas.png" alt="">
+                                    <h3 class="subtitle">Ingredientes</h3>
+                                    <p class="ingredientes"><span class="a-leche">Leche</span>, <span class="a-leche">nata</span>, azúcar y reducción de pasas con Ron.</p>
+                                    <h5 class="price">1,50€</h5>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+
+            <section class="batidos bebidas" id="batidos">
+                  <div class="content-title">
+                        <div class="letter">B</div>
+                        <div class="letter">A</div>
+                        <div class="letter">T</div>
+                        <div class="letter">I</div>
+                        <div class="letter">D</div>
+                        <div class="letter">O</div>
+                        <div class="letter">S</div>
+                  </div>
+                  <div class="content-file">
+                        <div class="file">
+                              <div class="icon">
+                                    <img src="img/fotosbatidos/strawberry-g518421ca6_1280.png" alt="fresa">
+                              </div>
+                              <div class="text">
+                                    <div class="name c-fresa">Fresa</div>
+                              </div>
+                              <div class="price">3.50€</div>
+                        </div>
+                        <div class="file">
+                              <div class="icon">
+                                    <img src="img/fotosbatidos/guanabana-gc94f5df79_1280.png" alt="guanabana">
+                              </div>
+                              <div class="text">
+                                    <div class="name c-guana">Guanábana</div>
+                              </div>
+                              <div class="price">3.50€</div>
+                        </div>
+                        <div class="file">
+                              <div class="icon">
+                                    <img src="img/fotosbatidos/guava-g8a9214823_1280.png" alt="guayaba">
+                              </div>
+                              <div class="text">
+                                    <div class="name c-guaya">Guayaba</div>
+                              </div>
+                              <div class="price">3.50€</div>
+                        </div>
+                        <div class="file">
+                              <div class="icon">
+                                    <img src="img/fotosbatidos/lulo.png" alt="lulo" id="img-size">
+                              </div>
+                              <div class="text">
+                                    <div class="name c-lulo">Lulo</div>
+                              </div>
+                              <div class="price">3.50€</div>
+                        </div>
+                        <div class="file">
+                              <div class="icon">
+                                    <img src="img/fotosbatidos/hot-chocolate-g6b1d1a6e7_1280.png" alt="milo">
+                              </div>
+                              <div class="text">
+                                    <div class="name c-milo">Milo</div>
+                              </div>
+                              <div class="price">3.50€</div>
+                        </div>
+                        <div class="file">
+                              <div class="icon">
+                                    <img src="img/fotosbatidos/mango-gccddfafd6_1280.png" alt="mango">
+                              </div>
+                              <div class="text">
+                                    <div class="name c-mango">Mango</div>
+                              </div>
+                              <div class="price">3.50€</div>
+                        </div>
+                        <div class="file">
+                              <div class="icon">
+                                    <img src="img/fotosbatidos/maracuya-ga351705f2_1280.png" alt="maracuya">
+                              </div>
+                              <div class="text">
+                                    <div class="name c-marac">Maracuyá</div>
+                              </div>
+                              <div class="price">3.50€</div>
+                        </div>
+                        <div class="file">
+                              <div class="icon">
+                                    <img src="img/fotosbatidos/papaya-ga24c998fd_1280.png" alt="papaya">
+                              </div>
+                              <div class="text">
+                                    <div class="name c-papay">Papaya</div>
+                              </div>
+                              <div class="price">3.50€</div>
+                        </div>
+                        <div class="file">
+                              <div class="icon">
+                                    <img src="img/fotosbatidos/pineapple-g6e8ab0f7c_1280.png" alt="piña">
+                              </div>
+                              <div class="text">
+                                    <div class="name c-piña">Piña</div>
+                              </div>
+                              <div class="price">3.50€</div>
+                        </div>
+                        <div class="file">
+                              <div class="icon">
+                                    <img src="img/fotosbatidos/tamarind-g77c9b0290_1280.png" alt="tamarindo">
+                              </div>
+                              <div class="text">
+                                    <div class="name c-tamar">Tamarindo</div>
+                              </div>
+                              <div class="price">3.50€</div>
+                        </div>
+                  </div>
+                  <div class="gradient-border">
+                        <div class="cart">
+                              <h1 class="title">Para llevar 4€</h1>
+                        </div>
+            </div></section>
+
+            <section class="bebidas" id="bebidas">
+                  <div class="content-title">
+                        <div class="letter">B</div>
+                        <div class="letter">E</div>
+                        <div class="letter">B</div>
+                        <div class="letter">I</div>
+                        <div class="letter">D</div>
+                        <div class="letter">A</div>
+                        <div class="letter">S</div>
+                  </div>
+                  <div class="content-file">
+                        <div class="file">
+                              <div class="icon">
+                                    <img src="img/fotos bebidas/acuario limon.png" alt="Aquarius">
+                              </div>
+                              <div class="text">
+                                    <div class="name">Aquarius Limón</div>
+                              </div>
+                              <div class="price">2€</div>
+                        </div>
+                        <div class="file">
+                              <div class="icon">
+                                    <img src="img/fotos bebidas/acuario naranja.png" alt="Aquarius">
+                              </div>
+                              <div class="text">
+                                    <div class="name">Aquarius Naranja</div>
+                              </div>
+                              <div class="price">2€</div>
+                        </div>
+                        <div class="file">
+                              <div class="icon">
+                                    <img src="img/fotos bebidas/amstel.png" alt="Amstel">
+                              </div>
+                              <div class="text">
+                                    <div class="name">Amstel</div>
+                              </div>
+                              <div class="price">2€</div>
+                        </div>
+                        <div class="file">
+                              <div class="icon">
+                                    <img src="img/fotos bebidas/coca cola zero.png" alt="cola zero">
+                              </div>
+                              <div class="text">
+                                    <div class="name">Coca Cola Zero</div>
+                              </div>
+                              <div class="price">2€</div>
+                        </div>
+                        <div class="file">
+                              <div class="icon">
+                                    <img src="img/fotos bebidas/coca cola.png" alt="coca cola">
+                              </div>
+                              <div class="text">
+                                    <div class="name">Coca Cola</div>
+                              </div>
+                              <div class="price">2€</div>
+                        </div>
+                        <div class="file">
+                              <div class="icon">
+                                    <img src="img/fotos bebidas/colombiana.png" alt="colombiana">
+                              </div>
+                              <div class="text">
+                                    <div class="name">Colombiana</div>
+                              </div>
+                              <div class="price">2€</div>
+                        </div>
+                        <div class="file">
+                              <div class="icon">
+                                    <img src="img/fotos bebidas/corona.png" alt="corona">
+                              </div>
+                              <div class="text">
+                                    <div class="name">Corona</div>
+                              </div>
+                              <div class="price">2€</div>
+                        </div>
+                        <div class="file">
+                              <div class="icon">
+                                    <img src="img/fotos bebidas/fanta limon.png" alt="fanta limon">
+                              </div>
+                              <div class="text">
+                                    <div class="name">Fanta Limón</div>
+                              </div>
+                              <div class="price">2€</div>
+                        </div>
+                        <div class="file">
+                              <div class="icon">
+                                    <img src="img/fotos bebidas/fanta naranja.png" alt="fanta naranja">
+                              </div>
+                              <div class="text">
+                                    <div class="name">Fanta Naranja</div>
+                              </div>
+                              <div class="price">2€</div>
+                        </div>
+                        <div class="file">
+                              <div class="icon">
+                                    <img src="img/fotos bebidas/heineken.png" alt="heineken">
+                              </div>
+                              <div class="text">
+                                    <div class="name">Heiniken</div>
+                              </div>
+                              <div class="price">2€</div>
+                        </div>
+                        <div class="file">
+                              <div class="icon">
+                                    <img src="img/fotos bebidas/hit lulo.png" alt="hit lulo">
+                              </div>
+                              <div class="text">
+                                    <div class="name">Hit Lulo</div>
+                              </div>
+                              <div class="price">2€</div>
+                        </div>
+                        <div class="file">
+                              <div class="icon">
+                                    <img src="img/fotos bebidas/hit mango.png" alt="hit mango">
+                              </div>
+                              <div class="text">
+                                    <div class="name">Hit Mango</div>
+                              </div>
+                              <div class="price">2€</div>
+                        </div>
+                        <div class="file">
+                              <div class="icon">
+                                    <img src="img/fotos bebidas/hit mora.png" alt="hit mora">
+                              </div>
+                              <div class="text">
+                                    <div class="name">Hit Mora</div>
+                              </div>
+                              <div class="price">2€</div>
+                        </div>
+                        <div class="file">
+                              <div class="icon">
+                                    <img src="img/fotos bebidas/labron de manzanas.png" alt="ladrón manzana">
+                              </div>
+                              <div class="text">
+                                    <div class="name">Ladrón de Manzanas</div>
+                              </div>
+                              <div class="price">2€</div>
+                        </div>
+                        <div class="file">
+                              <div class="icon">
+                                    <img src="img/fotos bebidas/manzana.png" alt="manzana">
+                              </div>
+                              <div class="text">
+                                    <div class="name">Postobon de Manzana</div>
+                              </div>
+                              <div class="price">2€</div>
+                        </div>
+                        <div class="file">
+                              <div class="icon">
+                                    <img src="img/fotos bebidas/uva.png" alt="uva">
+                              </div>
+                              <div class="text">
+                                    <div class="name">Postobon de Uva</div>
+                              </div>
+                              <div class="price">2€</div>
+                        </div>
+                        <div class="file">
+                              <div class="icon">
+                                    <img src="img/fotos bebidas/pony.png" alt="pony">
+                              </div>
+                              <div class="text">
+                                    <div class="name">Pony Malta</div>
+                              </div>
+                              <div class="price">2€</div>
+                        </div>
+                        <div class="file">
+                              <div class="icon">
+                                    <img src="img/fotos bebidas/shandy.png" alt="shandy">
+                              </div>
+                              <div class="text">
+                                    <div class="name">Shandy</div>
+                              </div>
+                              <div class="price">2€</div>
+                        </div>
+                        <div class="file">
+                              <div class="icon">
+                                    <img src="img/fotos bebidas/sprite.png" alt="sprite">
+                              </div>
+                              <div class="text">
+                                    <div class="name">Sprite</div>
+                              </div>
+                              <div class="price">2€</div>
+                        </div>
+                  </div>
+            </section>
+            <footer>
+
+                  <div>
+                        <address>
+                              Calle: Av. Alfonso IX de León<br>
+                              código postal: 37004<br>N 31-37,
+                              Salamanca
+                        </address>
+                  </div>
+                  <div>
+                        <h3>Horario</h3>
+                        <p>Abierto de lunes a domingo de<br> 15:00 hasta las 00:00</p>
+                  </div>
+
+            </footer>
+      </main>
+
+
+
+</body><!--create by SwiftSite
+CodeCrafters "Don Nadie"--></html>
